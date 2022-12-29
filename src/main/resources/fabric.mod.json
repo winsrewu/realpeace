@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "realpeace",
+  "version": "${version}",
+  "name": "Realpeace",
+  "description": "真正的和平",
+  "authors": [
+    "WinsreWu"
+  ],
+  "contact": {
+    "website": "https://github.com/winner32/realpeace"
+  },
+  "license": "MIT",
+  "icon": "assets/realpeace/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "xyz.jawbts.realpeace.client.RealpeaceClient"
+    ],
+    "main": [
+      "xyz.jawbts.realpeace.Realpeace"
+    ]
+  },
+  "mixins": [
+    "realpeace.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.12",
+    "fabric": "*",
+    "minecraft": "1.19.3"
+  }
+}
